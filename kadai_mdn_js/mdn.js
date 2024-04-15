@@ -1,7 +1,11 @@
-const today=new Date("2023,9,22");
+const today=new Date();
 
+const date=()=>{
 const year=today.getFullYear();
-const month=today.getMonth();
+const month=today.getMonth()+1;
 const day=today.getDate();
 
 console.log(year+"年",month+"月",day+"日");
+}
+
+date();
