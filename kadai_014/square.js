@@ -1,4 +1,6 @@
 const Multiplier=(number)=>{
-    console.log(number*number);
+     var result=number**2;
+    return result;
 }
-Multiplier(10);
+var result=Multiplier(10);
+console.log(result);
